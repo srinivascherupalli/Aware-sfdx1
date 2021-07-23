@@ -9,6 +9,14 @@ config/
 scripts/
 .eslintignore/
 .forceignore
+.eslintignore
+.prettierignore
+.prettierrc
+.vscode/
+README.md
+jest.config.js
+package.json
+sfdx-project.json
 
 
 # LWC VSCode autocomplete
