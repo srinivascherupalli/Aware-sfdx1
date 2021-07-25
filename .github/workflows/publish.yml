@@ -34,4 +34,4 @@ jobs:
       id: Deploy
       if: github.event_name == 'push'
       run:
-        node_modules/sfdx-cli/bin/run force:source:deploy --manifest LRQA --json --loglevel fatal
+        node_modules/sfdx-cli/bin/run sfdx force:source:deploy --manifest /Users/scherupalli/Projects/SFDX-Deploy1/manifest/package.xml --json --loglevel fatal
