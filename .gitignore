@@ -16,7 +16,6 @@ scripts/
 README.md
 jest.config.js
 package.json
-sfdx-project.json
 
 
 # LWC VSCode autocomplete
